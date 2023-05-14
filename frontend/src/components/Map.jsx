@@ -3,12 +3,11 @@ import 'leaflet/dist/leaflet.css';
 import { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { L, Icon, divIcon } from 'leaflet';
+import GtfsRealtimeBindings from "gtfs-realtime-bindings";
 
 
 const Map = () => {
-
-  // delete L.Icon.Default.prototype._getIconUrl;
-
+  
   const customIcon = new Icon ({
     iconUrl: require('leaflet/dist/images/marker-icon.png'),
     iconSize: [25, 41],

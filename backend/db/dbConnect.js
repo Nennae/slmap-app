@@ -8,10 +8,10 @@ async function dbConnect() {
         "mongodb://localhost:27017",
     )
     .then(() => {
-      console.log("Successfully connected to MongoDB Atlas!");
+      console.log("Successfully connected to MongoDB!");
     })
     .catch((error) => {
-      console.log("Unable to connect to MongoDB Atlas!");
+      console.log("Unable to connect to MongoDB!");
       console.error(error);
     });
 }
