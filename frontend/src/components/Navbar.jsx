@@ -6,8 +6,8 @@ const Navbar = () => {
       return (
             <Fragment>
                   <Header/>
-                  <Link to="/">Home</Link>
-                  <Link to="/MapView">Map</Link>
+                  <Link to="/" style={{ textDecoration: 'none', color:'#333734 ', fontSize: '2rem', fontWeight: '500', padding: '25px' }}>Home</Link>
+                  <Link to="/MapView" style={{ textDecoration: 'none', color:'#333734 ', fontSize: '2rem', fontWeight: '500', padding: '25px'}}>Map</Link>
             </Fragment>
       )
 }

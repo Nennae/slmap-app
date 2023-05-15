@@ -1,11 +1,14 @@
 # SLMAP-APP
 
-An app that should provide realtime data of regional traffic in Stockholm, on a map.
+An app that should provide realtime data of regional traffic in Stockholm.
 
 ## Getting Started
 
 1. Change to the project directory: `cd your-project`
 2. Install dependencies: `npm install`
+3. start frontend: `npm install`
+4. start backend: `nodemon run`
+
 
 ### Prerequisites
 
