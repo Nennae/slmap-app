@@ -3,7 +3,6 @@ import 'leaflet/dist/leaflet.css';
 import { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { L, Icon, divIcon } from 'leaflet';
-import GtfsRealtimeBindings from "gtfs-realtime-bindings";
 
 
 const Map = () => {
